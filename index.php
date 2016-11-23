@@ -14,7 +14,7 @@ define('IN_TG',true);
 //定义个常量，用来指定本页的内容
 define('SCRIPT','index');
 //引入公共文件
-require dirname(__FILE__).'/includes/common.inc.php'; //转换成硬路径，速度更快
+require dirname(__FILE__).'../includes/common.inc.php'; //转换成硬路径，速度更快
 //读取XML文件
 $_html = _html(_get_xml('new.xml'));
 //读取帖子列表
